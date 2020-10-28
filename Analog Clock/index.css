@@ -1,0 +1,124 @@
+#clock{
+    background-image: url(images/analog-clock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    margin-left: 300px;
+
+}
+
+
+#second{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+
+#second-hand{
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+#second{
+    animation-name: long;
+    animation-duration: 60s;
+    animation-timing-function: steps(60)
+    
+}
+
+@keyframes second{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
+
+#long{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+
+#long-hand{
+    width: 20%;
+    height: 180px;
+    background-color: black;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+#long{
+    animation-name: long;
+    animation-duration: 60ms;
+    animation-timing-function: steps(1)
+    
+}
+
+@keyframes long{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
+
+#short{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+
+#short-hand{
+    width: 20%;
+    height: 120px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: -105px;
+    border-radius: 10px;
+}
+#short{
+    transform: rotate(80deg);
+}
+#short{
+    animation-name: long;
+    animation-duration: 1ms;
+    animation-timing-function: steps(1)
+    
+    
+}
+
+@keyframes short{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
