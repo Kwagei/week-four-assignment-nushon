@@ -1,0 +1,155 @@
+#clock{
+    background-image: url(images/analog-clock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 600px;
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    position: relative;
+    opacity: 75%;
+
+
+}
+
+h2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 530px;
+}
+
+#img{
+    width: 10%;
+    height: 80px;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 180px;
+    padding: 200px;
+    
+
+}
+
+
+#second{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 315px;
+    margin-left: 315px;
+    position: absolute;
+    
+}
+
+#second-hand{
+    width: 5%;
+    height: 90px;
+    background-color: black;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+#second{
+    animation-name: long;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(60)
+    
+}
+
+
+@keyframes second{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
+
+#long{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 315px;
+    margin-left: 315px;
+    position: absolute;
+    
+}
+
+#long-hand{
+    width: 20%;
+    height: 150px;
+    background-color: black;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+#long{
+    animation-name: long;
+    animation-duration: 60s;
+    animation-timing-function: steps(1)
+    
+}
+
+#long{
+    transform: rotate(360deg);
+}
+
+@keyframes long{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
+
+#short{
+    width: 5%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 315px;
+    margin-left: 315px;
+    position: absolute;
+    
+}
+
+#short-hand{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+    margin-left: 13px;
+    margin-top: -80px;
+    border-radius: 10px;
+}
+#short{
+    transform: rotate(180deg);
+}
+#short{
+    animation-name: long;
+    animation-duration: 3600s;
+    animation-timing-function: steps(60);
+    
+    
+}
+
+
+
+
+@keyframes short{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    
+}
