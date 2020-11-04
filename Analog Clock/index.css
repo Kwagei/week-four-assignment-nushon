@@ -1,15 +1,17 @@
+/* body{
+    background-color: burlywood;
+} */
 #clock{
     background-image: url(images/analog-clock.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 52%;
     height: 600px;
-    position: relative;
+    position: fixed;
     margin-left: 300px;
-    margin-bottom: 50px;
-    border-radius: 100%;
-    position: relative;
+    margin-bottom: 80px;
     opacity: 75%;
+    
 
 
 }
@@ -37,9 +39,10 @@ h2{
     height: 30px;
     border-radius: 50%;
     background-color: black;
-    margin-top: 315px;
-    margin-left: 315px;
+    margin-top: 317px;
+    margin-left: 318px;
     position: absolute;
+    position: ;
     
 }
 
@@ -49,6 +52,7 @@ h2{
     background-color: black;
     margin-left: 15px;
     border-radius: 10px;
+    position: fixed;
 }
 #second{
     animation-name: long;
@@ -75,8 +79,8 @@ h2{
     height: 30px;
     border-radius: 50%;
     background-color: black;
-    margin-top: 315px;
-    margin-left: 315px;
+    margin-top: 317px;
+    margin-left: 318px;
     position: absolute;
     
 }
@@ -87,6 +91,7 @@ h2{
     background-color: black;
     margin-left: 13px;
     border-radius: 10px;
+    position: fixed;
 }
 #long{
     animation-name: long;
@@ -115,8 +120,8 @@ h2{
     height: 30px;
     border-radius: 50%;
     background-color: black;
-    margin-top: 315px;
-    margin-left: 315px;
+    margin-top: 317px;
+    margin-left: 318px;
     position: absolute;
     
 }
@@ -128,6 +133,7 @@ h2{
     margin-left: 13px;
     margin-top: -80px;
     border-radius: 10px;
+    position: fixed;
 }
 #short{
     transform: rotate(180deg);
